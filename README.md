@@ -1,6 +1,6 @@
 # stripe_payment
 
-A new Flutter application.
+Very simple way to add stripe pay in your project 
 
 # Steps
 
