@@ -2,7 +2,32 @@
 
 A new Flutter application.
 
-## Getting Started
+# Steps
+
+## Step 1
+  Add Stripe libraries and HTTP in pubspec.yaml file
+  
+  #Libraries
+  <br> #stripe <br>
+   flutter_stripe:
+  <br> #For Web Api <br>
+   http:
+   
+## Step 2
+
+  Change minimun and traget SDK in app\build.gradile file <br>
+        minSdkVersion 21 <br>
+        targetSdkVersion 30
+        
+## Step 3
+
+  Replace your android MainActivity with below code
+  
+  
+<br>
+
+
+## Screenshorts
 
 <p>
   
