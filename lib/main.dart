@@ -5,7 +5,7 @@ import 'package:stripe_payment/Screen/Home.dart';
 void main() async {
 
   WidgetsFlutterBinding.ensureInitialized();
-  Stripe.publishableKey = 'pk_test_51KFd7HHjhOs2YctLJgLY8xxj2LJduIQxYPDe04GyTjTLPFP6viTeGUfneSqDWaIHXu5Xlxr17cIfklJATpqB7hOk00NCJjjYro';
+  Stripe.publishableKey = 'Stripe Publish Key Here';
 
   runApp(const MyApp());
 }
