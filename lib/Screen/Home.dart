@@ -168,7 +168,7 @@ class _HomePageState extends State<HomePage> {
       var response = await http.post(Uri.parse('https://api.stripe.com/v1/payment_intents'),
           body: body,
           headers: {
-            'Authorization': 'Bearer sk_test_51KFd7HHjhOs2YctLJjPWRMLLEPI9bFcAWnhy8WGBfNnpJhY2jNMKQS62xznqdHeeGWACqBgUceKIAIwlSJGQgoOv00ELTk8nFR',
+            'Authorization': 'Bearer Stripe Test Key Here',
             'Content-Type': 'application/x-www-form-urlencoded'
           }
       );
